@@ -6,10 +6,6 @@ update account set password = 'c8cd1446019a02aadcc17c2e2405a01e' where account_n
 
 
 
-
-TRUNCATE TABLE `app_role`;
-TRUNCATE TABLE `account_roles`;
-
 INSERT INTO `app_role` (`code`, `name`) VALUES
 ('ROLE_ADMIN', 'ROLE_ADMIN');
 
